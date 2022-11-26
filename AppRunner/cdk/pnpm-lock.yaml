@@ -1,0 +1,30 @@
+lockfileVersion: 5.4
+
+specifiers:
+  projen: ^0.65.36
+
+dependencies:
+  projen: 0.65.36
+
+packages:
+
+  /projen/0.65.36:
+    resolution: {integrity: sha512-veSMieTJYJ43CS7xOLdDnDy4QCkHZpOSmaR9en58rsfoNFqWpF6+ee/ezu8/bl3PoBbutVIRc/wzQjW2uyNCbA==}
+    engines: {node: '>= 14.0.0'}
+    hasBin: true
+    dev: false
+    bundledDependencies:
+      - '@iarna/toml'
+      - case
+      - chalk
+      - conventional-changelog-config-spec
+      - fast-json-patch
+      - fs-extra
+      - glob
+      - ini
+      - semver
+      - shx
+      - xmlbuilder2
+      - yaml
+      - yargs
+      - zlib

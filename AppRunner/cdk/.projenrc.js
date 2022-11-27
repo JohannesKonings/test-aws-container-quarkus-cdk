@@ -1,4 +1,4 @@
-const { awscdk, github } = require('projen');
+const { awscdk, javascript } = require('projen');
 const project = new awscdk.AwsCdkTypeScriptApp({
   cdkVersion: '2.51.1',
   defaultReleaseBranch: 'main',
@@ -13,5 +13,6 @@ const project = new awscdk.AwsCdkTypeScriptApp({
   // packageName: undefined,  /* The "name" in package.json. */
   mergify: false,
   github: false,
+  packageManager: javascript.NodePackageManager.PNPM,
 });
 project.synth();

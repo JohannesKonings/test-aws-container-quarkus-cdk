@@ -10,6 +10,9 @@
 		"ghcr.io/devcontainers-contrib/features/aws-cdk:1": {},
 		"maven": "latest"
 	},
+	"extensions": [
+		"GitHub.copilot"
+	],
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},

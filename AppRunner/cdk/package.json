@@ -45,7 +45,7 @@
   },
   "dependencies": {
     "@aws-cdk/aws-apprunner-alpha": "^2.51.1-alpha.0",
-    "aws-cdk-lib": "^2.51.1",
+    "aws-cdk-lib": "^2.80.0",
     "cdk-nag": "^2.21.14",
     "constructs": "^10.0.5"
   },
